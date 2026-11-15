@@ -1,0 +1,34 @@
+:root {
+  --accent: #B0124F;
+  --accent-hover: #7F0D38;
+  --accent-surface: #F8EEED;
+  --accent-border: #F0DADA;
+}
+
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+
+/* nav: soft hover, filled current tab */
+nav ul.menu li a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-surface) !important;
+}
+
+nav ul.menu li a[aria-current="page"] {
+  color: #FCFAF5;
+  border-color: var(--accent);
+  background: var(--accent) !important;
+}
+
+/* post header, code blocks, inline code share one tint */
+.article-meta,
+pre,
+.highlight,
+:not(pre) > code {
+  background: var(--accent-surface) !important;
+  border-color: var(--accent-border);
+}
+
+.article-meta h1 { color: var(--accent) !important; }
+.article-meta h2 { color: #A8325A !important; }
