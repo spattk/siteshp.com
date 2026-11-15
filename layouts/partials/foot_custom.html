@@ -1,0 +1,10 @@
+<script>
+  var links = document.querySelectorAll('nav a');
+  var here = location.pathname;
+  var current = null;
+  links.forEach(function (a) {
+    var p = a.pathname;
+    if (p === '/' ? here === '/' : here.startsWith(p)) current = a;
+  });
+  (current || links[0]).setAttribute('aria-current', 'page');
+</script>
