@@ -1,8 +1,8 @@
 :root {
   --accent: #B0124F;
   --accent-hover: #7F0D38;
-  --accent-surface: #F8EEED;
-  --accent-border: #F0DADA;
+  --accent-surface: #F4E5E4;
+  --accent-border: #EBCFCF;
 }
 
 a { color: var(--accent); }
