@@ -1,5 +1,5 @@
 ---
-title: A Kubecon to remember (and a flight i won't forget)
+title: A Kubecon to remember (and a flight I won't forget)
 date: 2026-11-15T17:59:50.003Z
 author: Sitesh Pattanaik
 ---
